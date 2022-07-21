@@ -1,0 +1,18 @@
+{
+  "name": "eddd",
+  "private": true,
+  "scripts": {
+    "start": "turbo run start",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "turbo": "^1.3.4"
+  }
+}
